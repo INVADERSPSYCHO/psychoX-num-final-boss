@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 API_KEY = os.environ.get("API_KEY", "psychoxd")  # 🔥 Env se lo, nahi toh default
 DEVELOPER = "@psychopathmc"
 SUPPORT_MSG = "For API purchase, contact @psychopathmc"
-BASE_URL = "https://huggingface.co/datasets/Kzr0xx/icrm-hitek-full-db-mixed/resolve/main"  # 🔥 FIXED
+BASE_URL = ""  # 🔥 FIXED
 CACHE_TTL = 300
 
 app = FastAPI(title="PsychopathMC OSINT API", version="10.0")
